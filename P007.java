@@ -5,6 +5,8 @@ public class P007 {
 	static final int LIMIT = 10001;
 
 	public static void main(String[] args) {
+		System.err.println(solve(10001));
+
 		Scanner in = new Scanner(System.in);
 		int T = in.nextInt();
 		for (int tc = 0; tc < T; tc++) {

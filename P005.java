@@ -2,6 +2,8 @@ import java.util.Scanner;
 
 public class P005 {
 	public static void main(String[] args) {
+		System.err.println(solve(20));
+
 		Scanner in = new Scanner(System.in);
 		int T = in.nextInt();
 		for (int tc = 0; tc < T; tc++) {

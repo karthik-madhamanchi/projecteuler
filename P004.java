@@ -2,6 +2,8 @@ import java.util.Scanner;
 
 public class P004 {
 	public static void main(String args[]) {
+		System.err.println(solve(Integer.MAX_VALUE));
+
 		Scanner in = new Scanner(System.in);
 		int T = in.nextInt();
 		for (int tc = 0; tc < T; tc++) {
